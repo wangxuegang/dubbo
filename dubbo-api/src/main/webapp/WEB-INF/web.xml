@@ -13,16 +13,4 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
-	<!-- 加载dubbo配置start -->
-	<context-param>
-		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath:applicationContext.xml</param-value>
-	</context-param>
-	<!-- 加载dubbo配置end -->
-
-	<!-- spring 上下文监听器，初始化启动容器时启动 spring -->
-	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
-	
 </web-app>
